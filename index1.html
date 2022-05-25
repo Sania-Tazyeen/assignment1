@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>basic tag</title>
+	<link href="sania.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+	<article>If you want to join Full Stack Development Course
+		<header>
+		<h1> Contact us</h1></header>
+	<address>
+	Innovatum Software Company in Vijayapura,India<br>
+    KBITS Incubation center 
+	<br>
+	2nd floor library building <br>
+	BLDEA Engineering College
+	<br><footer>Vijayapura,Karnataka 586101, India.
+</address>
+</article>
+<main>
+<h2>This is a picture of Crescent tower </h2></main>
+<figure>
+<img src="01.webp", width="20%">
+<figcaption>A Beautiful Picture of the Crescent Tower</figcaption>
+<aside style="float:none ; width:15%;">
+	<blockquote><div><pre>Crescent Tower Qatar</pre><p style="font-size:10px;"><pre>
+The completed silhouette of Katara Towers, rising from the southernmost point of the 38 km² planned city of Lusail
+Qatar, will be a distinctive landmark for the nation. The crescent design of this future “hospitality icon of<br>Qatar” translates the country’s national identity into an architectural landmark.</pre>
+</p></div></blockquote>
+</aside>
+<h2>Square</h2>
+	<canvas id="square" width="75" height="75">
+</canvas>
+<script>
+	//square
+	var sq= document.getElementById('square').getContext('2d');
+
+	sq.fillStyle ="red";
+	sq.rect(10,10,50,50);
+	sq.fill();
+</script>
+<style>
+	canvas{
+		background: #ddd;
+	}
+</style>
+<hr>
+<dl>
+	<dt>Doha</dt>
+	<dd>Doha is the capital city of Qatar</dd>
+</dl>
+<hr>
+<dl>
+	<dt>Abdul Raheem Sir</dt>
+	<dd>He is our HTML Teacher </dd>
+</dl>
+<div class ="content">Qatar Museums (formerly the Qatar Museums Authority) is a Qatari government entity that oversees the Museum of Islamic Art.</div>
+
+<form action="index1.html" method="post">
+	<h3>Sign Up</h3>
+
+	<fieldset>
+		<legend><span class="number">1</span> Your basic info</legend>
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="user_name"><br>
+
+		<label for="mail">Email:</label>
+		<input type="email" id="mail" name="user_email"><br>
+
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="user_password"><br>
+
+	</fieldset>
+	<fieldset>
+		<legend><span class="number2"></span>Your Profile</legend>
+	<label for="bio"> Biography:</label>
+	<textarea id="bio" name="user_bio"></textarea><br>
+     <button type="submit>">Sign up</button>
+</fieldset>
+</form>
+<header>
+	<h3>About Qatar</h3></header>
+<section class="main-content">
+	<p>Qatar, officially the State of <q>Qatar</q>, is a country located in Western Asia. <samp>It has a total area of 11,586 square km.</samp> Doha is its capital and largest city. Arabic is the official and English is the common language in the country.</p>
+</section>
+<footer>
+	<ul>
+		<li>Gulf Country</li>
+		<li>Capital-Doha</li>
+		<li>Currency-Qatari Riyals</li>
+	</ul>
+	<ol>
+		<li>India</li>
+		<li>Capital Delhi</li>
+		<li>CUrrency-indian rupee</li>
+	</ol>
+	</ol>
+</footer>
+	
+</section>
+<title>Table</title>
+<bdo dir="ltr">This is a table.</bdo>
+<style type="text/css">
+	table,th,td{
+		border: 1px solid green;
+		border-spacing: 0px;
+	}
+</style>
+<table>
+	<thead>
+	<tr>
+		<th>S.no</th>
+		<th>Item name</th>
+		<th>Item rate</th> 
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>001</td>
+		<td>Iphone 11</td>
+		<td>2500QAR</td>
+	</tr>
+	<tr>
+		<td>002</td>
+		<td>charger</td>
+		<td>00Qar</td>
+	</tr>
+	<tr>
+		<td>003</td>
+		<td>Laptop</td>
+		<td>4000QAR</td>
+	</tr>
+</tbody>
+<tfoot>
+
+	<tr>
+		<td></td>
+		<td>Total value</td>
+		<td>6500QAR</td>
+	</tr>
+</tfoot>
+</table>
+<nav>
+	<a href="#">Home</a>   
+	<a href="#">Profile</a>
+	<a href="#">Notifications</a>
+	<a href="#">About Us</a>
+</nav>
+
+
+<script type="text/javascript">
+	document.write ("This is HTML session")
+</script>
+<noscript>
+	<big>Oops!!</big>:<small>your browser does not support javascript.</small>
+</noscript>
+<p>the <cite>Indian currency</cite> is <abbr title="Indian rupee"><em>INR</em></abbr>.</p>
+<p>the Qatar currency is <acronym title="Qatari riyals"><i>QAR</i></acronym>.
+	</p><b>Doha</b> is the <kbd>capial< city of <b>Qatar</b>
+	</p>
+	<p><big>Delhi</big> <small>is the capital city of </small><big>India.</big></p>
+	<p><dfn title ="Hypertext Markup Language">HTML</dfn> is a markup language</p>
+	<p>  this is a <strong>javascript code</strong>-
+		<code>
+			var a=5
+			function myfunc(){
+				print(a)
+			};
+		</code>
+	</p>
+	<video controls>
+		<source src="<iframe width="560" height="315" src="https://www.youtube.com/embed/t0Q2otsqC4I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>">
+		</video>
+
+
+		<select>
+			<option>India</option>
+			<option>Qatar</option>
+			<option>Dubai</option>
+		</select>
+		<p> I learnt Hindi when i was in 2<sup>nd</sup> class, the chemical name of water is h<sub>2</sub>O.
+		</p>
+		<p> we have html class <br>
+			<time><tt>23/05/2022 07:30am</tt></time>
+		</p>
+		<p>this is html session <var> this is second day of course</var> </p>
+
+
+</body>
+</html>
